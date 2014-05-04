@@ -26,7 +26,8 @@ return array(
 	|
 	*/
 
-	'url' => 'http://power-hour.dev',
+//	'url' => 'http://power-hour.dev',
+    'url' => 'http://localhost:8000',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -119,6 +120,9 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+
+        'Way\Generators\GeneratorsServiceProvider',
+        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
 
 	),
 
